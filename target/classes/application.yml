@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: 9214
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/cxyqupload?serverTimezone=UTC&characterEncoding=utf-8&allowMultiQueries=true
+    type: com.alibaba.druid.pool.DruidDataSource
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+#    content-type: text/html
+    mode: HTML5
